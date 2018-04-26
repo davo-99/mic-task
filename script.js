@@ -21,7 +21,7 @@ let removeDuplicates = (myArr, prop) =>
 
 arr = removeDuplicates(arr, 'country');
 arr.sort((a,b)=>(a.country>b.country)?1:((b.country>a.country)?-1:0)); 
-console.log(arr);
+console.dir(arr);
 
 window.onload = function() {
     for (const elem of arr) {
