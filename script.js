@@ -1,3 +1,5 @@
+"use strict";
+
 const btn = document.getElementById('btn');
 const selected = document.getElementById('select');
 const flag1 = document.getElementById('flag1');
